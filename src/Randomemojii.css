@@ -1,0 +1,43 @@
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #f9a825;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f57f17;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  .background{
+    background-color: violet;
+    height: 100vh;
+  }
+  #emoji-name {
+    font-size: 3.5em;
+    margin-top: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
